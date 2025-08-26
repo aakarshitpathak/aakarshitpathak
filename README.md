@@ -14,7 +14,9 @@
 <!-- Let's Code Section -->
 <div align="center">
 
-![GitHub Snake](https://raw.githubusercontent.com/aakarshitpathak/aakarshitpathak/output/snake.svg)
+![Snake animation](https://raw.githubusercontent.com/aakarshitpathak/aakarshitpathak/output/snake.svg)
+
+
 
 
 
