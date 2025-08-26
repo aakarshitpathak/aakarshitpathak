@@ -14,7 +14,9 @@
 <!-- Let's Code Section -->
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/aakarshitpathak/aakarshitpathak/main/output/snake.svg)
+![GitHub Snake](https://raw.githubusercontent.com/aakarshitpathak/aakarshitpathak/output/snake.svg)
+
+
 
 
 
@@ -61,7 +63,26 @@
 
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> </p>
+<p align="left"> 
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100"> 
+  <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100"> 
+  <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100"> 
+  <img src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="100">
+  <img src="https://i.pinimg.com/originals/a9/60/92/a96092779e8f23078ac8a600cda7bf72.gif" width ="150" />
+  <img src="https://www.gif-maniac.com/gifs/50/49738.gif" width ="70" />
+  <img src="https://user-images.githubusercontent.com/42931974/68615320-d6bf3380-04e8-11ea-84f8-dcef049f1ed3.gif" width ="100" />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCpCB6Du8H6Lrm5WIbDcdW59uqoSiL-eeTlw&s"  width ="100" />
+  <img src="https://seaborn.pydata.org/_images/logo-tall-lightbg.svg"  width ="100" />
+  <img src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/07/Python-Numpy_05.gif"  width ="150" />
+  <img src="https://www.pistalix.in/wp-content/uploads/2018/11/mysql.gif" width ="150" />
+  <img src="https://github.com/user-attachments/assets/472d5eda-41a5-43d7-affc-d7071673166c" width="140" />
+  <img src="https://media.tenor.com/Y-8Qtpt5Z4EAAAAM/unreal-engine-5-in-le-head.gif" width="150" />
+  <img src="https://gifdb.com/images/high/linux-system-logo-28q2azohfou6zw42.gif" width="100"  />
+
+</div>
+
+</p>
+
 
 <div align="center">
   <img height=200" src="https://media.tenor.com/qDOh4O3R7JsAAAAM/mikaz.gif"  />
