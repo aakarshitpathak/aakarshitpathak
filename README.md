@@ -14,9 +14,8 @@
 <!-- Let's Code Section -->
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/aakarshitpathak/aakarshitpathak/output/snake.svg" alt="Snake animation" />
+![Snake animation](https://raw.githubusercontent.com/aakarshitpathak/aakarshitpathak/main/output/snake.svg)
 
-###
 
 ### 💻 Let's Code  
 
