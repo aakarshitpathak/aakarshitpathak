@@ -27,7 +27,7 @@ jobs:
           mkdir -p output_dist
           cp dist/snake.svg output_dist/snake.svg
 
-      # Step 4: Add black background using actual SVG dimensions
+      # Step 4: Add black background covering full viewBox
       - name: Add black background
         run: |
           python3 - <<EOF
@@ -39,15 +39,20 @@ jobs:
           tree = ET.parse(input_file)
           root = tree.getroot()
 
-          # Get SVG width and height
           width = root.get('width')
           height = root.get('height')
-          if not width or not height:
-              viewbox = root.get('viewBox', '0 0 100 100')
-              _, _, width, height = viewbox.split()
+          viewBox = root.get('viewBox')
 
-          # Create black rectangle
-          rect = ET.Element('rect', width=width, height=height, fill='black')
+          if viewBox:
+              min_x, min_y, vb_width, vb_height = map(float, viewBox.split())
+          else:
+              min_x = min_y = 0
+              vb_width = float(width) if width else 100
+              vb_height = float(height) if height else 100
+
+          # Add black rect covering the full SVG
+          rect = ET.Element('rect', x=str(min_x), y=str(min_y),
+                            width=str(vb_width), height=str(vb_height), fill='black')
           root.insert(0, rect)
 
           tree.write(output_file)
