@@ -9,7 +9,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout repository
+      # Step 1: Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -21,20 +21,27 @@ jobs:
           outputs: dist/snake.svg
           config: .github/snk.yml
 
-      # Step 3: Add black background reliably
+      # Step 3: Add black background safely
       - name: Add black background to snake.svg
         run: |
           python3 - <<EOF
           import xml.etree.ElementTree as ET
+          import shutil
 
-          tree = ET.parse('dist/snake.svg')
+          input_file = 'dist/snake.svg'
+          output_file = 'dist/snake_with_bg.svg'
+
+          tree = ET.parse(input_file)
           root = tree.getroot()
 
           # Create black rectangle
           rect = ET.Element('rect', width='100%', height='100%', fill='black')
           root.insert(0, rect)
 
-          tree.write('dist/snake.svg')
+          tree.write(output_file)
+
+          # Replace the original file
+          shutil.move(output_file, input_file)
           EOF
 
       # Step 4: Push to output branch
