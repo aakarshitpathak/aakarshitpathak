@@ -2,18 +2,18 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # runs every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout repo
+      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Generate snake.svg (original read-only dist folder)
+      # Step 2: Generate snake.svg
       - name: Generate snake.svg
         uses: Platane/snk@v3
         with:
@@ -27,7 +27,7 @@ jobs:
           mkdir -p output_dist
           cp dist/snake.svg output_dist/snake.svg
 
-      # Step 4: Add black background via style
+      # Step 4: Add black background using actual SVG dimensions
       - name: Add black background
         run: |
           python3 - <<EOF
@@ -39,13 +39,16 @@ jobs:
           tree = ET.parse(input_file)
           root = tree.getroot()
 
-          # Set style for black background
-          style = root.get('style', '')
-          if 'background-color' not in style:
-              if style and not style.endswith(';'):
-                  style += ';'
-              style += 'background-color:black;'
-          root.set('style', style)
+          # Get SVG width and height
+          width = root.get('width')
+          height = root.get('height')
+          if not width or not height:
+              viewbox = root.get('viewBox', '0 0 100 100')
+              _, _, width, height = viewbox.split()
+
+          # Create black rectangle
+          rect = ET.Element('rect', width=width, height=height, fill='black')
+          root.insert(0, rect)
 
           tree.write(output_file)
           EOF
