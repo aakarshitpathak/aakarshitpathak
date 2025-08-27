@@ -9,7 +9,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout repo
+      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -26,10 +26,15 @@ jobs:
         run: |
           python3 - <<EOF
           import xml.etree.ElementTree as ET
+          import tempfile
           import shutil
+          import os
 
           input_file = 'dist/snake.svg'
-          output_file = 'dist/snake_with_bg.svg'
+
+          # Use a temporary file outside dist/
+          with tempfile.NamedTemporaryFile(delete=False) as tmp:
+              tmp_file = tmp.name
 
           tree = ET.parse(input_file)
           root = tree.getroot()
@@ -38,10 +43,11 @@ jobs:
           rect = ET.Element('rect', width='100%', height='100%', fill='black')
           root.insert(0, rect)
 
-          tree.write(output_file)
+          tree.write(tmp_file)
 
-          # Replace the original file
-          shutil.move(output_file, input_file)
+          # Replace original file
+          shutil.copy(tmp_file, input_file)
+          os.unlink(tmp_file)
           EOF
 
       # Step 4: Push to output branch
