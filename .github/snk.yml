@@ -1,2 +1,2 @@
 palette: github
-background: black
+background: "#000000"   # use hex code for solid black
