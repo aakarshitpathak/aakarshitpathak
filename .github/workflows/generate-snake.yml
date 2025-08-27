@@ -2,17 +2,18 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *"   # runs every 12 hours
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 1: Generate snake.svg (read-only folder)
+      # Step 2: Generate snake.svg (original read-only dist folder)
       - name: Generate snake.svg
         uses: Platane/snk@v3
         with:
@@ -20,13 +21,13 @@ jobs:
           outputs: dist/snake.svg
           config: .github/snk.yml
 
-      # Step 2: Copy to writable folder
+      # Step 3: Copy to writable folder
       - name: Copy SVG to writable folder
         run: |
           mkdir -p output_dist
           cp dist/snake.svg output_dist/snake.svg
 
-      # Step 3: Add black background safely
+      # Step 4: Add black background via style
       - name: Add black background
         run: |
           python3 - <<EOF
@@ -38,13 +39,18 @@ jobs:
           tree = ET.parse(input_file)
           root = tree.getroot()
 
-          rect = ET.Element('rect', width='100%', height='100%', fill='black')
-          root.insert(0, rect)
+          # Set style for black background
+          style = root.get('style', '')
+          if 'background-color' not in style:
+              if style and not style.endswith(';'):
+                  style += ';'
+              style += 'background-color:black;'
+          root.set('style', style)
 
           tree.write(output_file)
           EOF
 
-      # Step 4: Push to output branch
+      # Step 5: Push to output branch
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
