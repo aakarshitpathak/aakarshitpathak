@@ -9,30 +9,31 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Generate snake SVG to dist folder
+      # Step 1: Generate snake.svg (read-only folder)
       - name: Generate snake.svg
         uses: Platane/snk@v3
         with:
           github_user_name: aakarshitpathak
-          outputs: temp_dist/snake.svg
+          outputs: dist/snake.svg
           config: .github/snk.yml
+
+      # Step 2: Copy to writable folder
+      - name: Copy SVG to writable folder
+        run: |
+          mkdir -p output_dist
+          cp dist/snake.svg output_dist/snake.svg
 
       # Step 3: Add black background safely
       - name: Add black background
         run: |
           python3 - <<EOF
           import xml.etree.ElementTree as ET
-          import os
 
-          input_file = 'temp_dist/snake.svg'
-          output_file = 'temp_dist/snake_bg.svg'
-
-          # Ensure folder exists
-          os.makedirs('temp_dist', exist_ok=True)
+          input_file = 'output_dist/snake.svg'
+          output_file = 'output_dist/snake_bg.svg'
 
           tree = ET.parse(input_file)
           root = tree.getroot()
@@ -48,6 +49,6 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
-          build_dir: temp_dist
+          build_dir: output_dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
