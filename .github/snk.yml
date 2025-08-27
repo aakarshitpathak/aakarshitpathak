@@ -1,2 +1,2 @@
-palette: github
-background: "#000000"   # use hex code for solid black
+palette: github   # GitHub green squares
+# background is handled by workflow, no need to set here
