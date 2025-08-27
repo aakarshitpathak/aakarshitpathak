@@ -14,7 +14,6 @@
 <!-- Let's Code Section -->
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/aakarshitpathak/aakarshitpathak/output/snake.svg)
 <div style="background-color:black; display:inline-block;">
   <img src="https://raw.githubusercontent.com/aakarshitpathak/aakarshitpathak/output/snake.svg">
 </div>
