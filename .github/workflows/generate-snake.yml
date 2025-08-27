@@ -9,30 +9,30 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # Step 1: Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 1: Generate snake to a temp file
-      - name: Generate snake.svg to temp location
-        run: |
-          mkdir temp_dist
-          python3 - <<EOF
-          import subprocess
-          subprocess.run([
-              "npx", "snk",
-              "--username", "aakarshitpathak",
-              "--output", "temp_dist/snake.svg"
-          ], check=True)
-          EOF
+      # Step 2: Generate snake SVG to dist folder
+      - name: Generate snake.svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: aakarshitpathak
+          outputs: temp_dist/snake.svg
+          config: .github/snk.yml
 
-      # Step 2: Add black background to SVG
+      # Step 3: Add black background safely
       - name: Add black background
         run: |
           python3 - <<EOF
           import xml.etree.ElementTree as ET
+          import os
 
           input_file = 'temp_dist/snake.svg'
           output_file = 'temp_dist/snake_bg.svg'
+
+          # Ensure folder exists
+          os.makedirs('temp_dist', exist_ok=True)
 
           tree = ET.parse(input_file)
           root = tree.getroot()
@@ -43,7 +43,7 @@ jobs:
           tree.write(output_file)
           EOF
 
-      # Step 3: Push to output branch
+      # Step 4: Push to output branch
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
