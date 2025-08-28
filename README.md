@@ -21,11 +21,8 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aakarshitpathak&" alt="aakarshitpathak" /></p>
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=aakarshitpathak&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-  </a>
-</p>
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=aakarshitpathak)](https://github.com/aakarshitpathak/github-profile-trophy)
 
 - 🔭 I’m currently working on **Image Detector**
 
