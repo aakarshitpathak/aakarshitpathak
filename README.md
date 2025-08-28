@@ -7,22 +7,10 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aakarshitpathak&label=Profile%20views&color=0e75b6&style=flat" alt="aakarshitpathak" /> </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aakarshitpathak&show_icons=true&locale=en&layout=compact" alt="aakarshitpathak" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aakarshitpathak&show_icons=true&locale=en" alt="aakarshitpathak" /></p>
-
-<!-- Let's Code Section -->
-<div align="center">
-
-<div style="background-color:black; display:inline-block;">
-  <img src="https://raw.githubusercontent.com/aakarshitpathak/aakarshitpathak/output/snake.svg">
-</div>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aakarshitpathak" alt="aakarshitpathak" /></a> </p>
 
 
-
-
-
-
+![snake gif](https://github.com/aakarshitpathak/aakarshitpathak/blob/output/github-snake-dark.svg)
 
 
 
@@ -30,10 +18,13 @@
 
 <img src="https://github.com/user-attachments/assets/fddcdbcd-5ea2-4416-9f59-ca7fd9394aca" width="300" alt="Let's Code"/>
 
-</div>
 
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aakarshitpathak&" alt="aakarshitpathak" /></p>
+
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aakarshitpathak&show_icons=true&locale=en&layout=compact" alt="aakarshitpathak" /></p>
+
+
+
 
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aakarshitpathak" alt="aakarshitpathak" /></a> </p>
@@ -84,8 +75,6 @@
   <img src="https://github.com/user-attachments/assets/472d5eda-41a5-43d7-affc-d7071673166c" width="140" />
   <img src="https://media.tenor.com/Y-8Qtpt5Z4EAAAAM/unreal-engine-5-in-le-head.gif" width="150" />
   <img src="https://gifdb.com/images/high/linux-system-logo-28q2azohfou6zw42.gif" width="100"  />
-
-</div>
 
 </p>
 
