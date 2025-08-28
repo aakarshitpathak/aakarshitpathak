@@ -7,7 +7,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aakarshitpathak&label=Profile%20views&color=0e75b6&style=flat" alt="aakarshitpathak" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aakarshitpathak" alt="aakarshitpathak" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"> ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aakarshitpathak&show_icons=true&theme=radical)
 
 
 ![snake gif](https://github.com/aakarshitpathak/aakarshitpathak/blob/output/github-snake-dark.svg)
@@ -27,7 +27,7 @@
 
 
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aakarshitpathak" alt="aakarshitpathak" /></a> </p>
+<img src="https://github-profile-trophy.vercel.app/?username=aakarshitpathak" alt="aakarshitpathak" /></a> </p>
 
 - 🔭 I’m currently working on **Image Detector**
 
