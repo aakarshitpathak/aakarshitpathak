@@ -5,29 +5,27 @@
   <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="600" alt="Welcome GIF"/>
 </div>
 
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aakarshitpathak&label=Profile%20views&color=0e75b6&style=flat" alt="aakarshitpathak" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"> ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aakarshitpathak&show_icons=true&theme=radical)
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aakarshitpathak&show_icons=true&locale=en&layout=compact" alt="aakarshitpathak" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aakarshitpathak&show_icons=true&locale=en" alt="aakarshitpathak" /></p>
 
 
 ![snake gif](https://github.com/aakarshitpathak/aakarshitpathak/blob/output/github-snake-dark.svg)
-
-
 
 ### 💻 Let's Code  
 
 <img src="https://github.com/user-attachments/assets/fddcdbcd-5ea2-4416-9f59-ca7fd9394aca" width="300" alt="Let's Code"/>
 
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aakarshitpathak&" alt="aakarshitpathak" /></p>
 
-
-
-<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aakarshitpathak&show_icons=true&locale=en&layout=compact" alt="aakarshitpathak" /></p>
-
-
-
-
-
-<img src="https://github-profile-trophy.vercel.app/?username=aakarshitpathak" alt="aakarshitpathak" /></a> </p>
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=aakarshitpathak&theme=radical&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  </a>
+</p>
 
 - 🔭 I’m currently working on **Image Detector**
 
@@ -88,3 +86,6 @@
   <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="200" />
   <img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="200" />
 </div>
+
+
+
