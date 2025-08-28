@@ -8,18 +8,34 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aakarshitpathak&label=Profile%20views&color=0e75b6&style=flat" alt="aakarshitpathak" /> </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aakarshitpathak&show_icons=true&locale=en&layout=compact" alt="aakarshitpathak" /></p>
+ ![](https://github-readme-stats.vercel.app/api?username=aakarshitpathak&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aakarshitpathak&show_icons=true&locale=en" alt="aakarshitpathak" /></p>
+<p align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aakarshitpathak&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages"/>
+      </td>
+      <td>
+        <img src="https://nirzak-streak-stats.vercel.app/?user=aakarshitpathak&theme=dark&hide_border=false" alt="GitHub Streak Stats"/>
+      </td>
+    </tr>
+  </table>
+</p>
+
+
 
 
 ![snake gif](https://github.com/aakarshitpathak/aakarshitpathak/blob/output/github-snake-dark.svg)
 
-### 💻 Let's Code  
+<div align="center">
 
-<img src="https://github.com/user-attachments/assets/fddcdbcd-5ea2-4416-9f59-ca7fd9394aca" width="300" alt="Let's Code"/>
+  ### 💻 Let's Code  
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aakarshitpathak&" alt="aakarshitpathak" /></p>
+  <img src="https://github.com/user-attachments/assets/fddcdbcd-5ea2-4416-9f59-ca7fd9394aca" width="300" alt="Let's Code"/>
+
+</div>
+
 
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=aakarshitpathak)](https://github.com/aakarshitpathak/github-profile-trophy)
