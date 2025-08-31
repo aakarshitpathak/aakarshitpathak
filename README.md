@@ -6,9 +6,12 @@
 </div>
 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aakarshitpathak&label=Profile%20views&color=0e75b6&style=flat" alt="aakarshitpathak" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=aakarshitpathak&label=Profile%20views&color=0e75b6&style=flat" alt="aakarshitpathak" /> </p>
 
- ![](https://github-readme-stats.vercel.app/api?username=aakarshitpathak&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aakarshitpathak&theme=dark&hide_border=false&include_all_commits=false&count_private=false" />
+</p>
+
 
 <p align="center">
   <table>
@@ -59,7 +62,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <!-- LinkedIn -->
-  <a href="www.linkedin.com/in/aakarshit-pathak-501605264" target="_blank">
+  <a href="https://www.linkedin.com/in/aakarshit-pathak-501605264" target="_blank">
     <img src="https://user-images.githubusercontent.com/74038190/235294012-0a55e343-37ad-4b0f-924f-c8431d9d2483.gif" width="100" alt="LinkedIn"/>
   </a>
 
