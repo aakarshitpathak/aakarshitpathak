@@ -43,6 +43,13 @@
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=aakarshitpathak)](https://github.com/aakarshitpathak/github-profile-trophy)
 
+
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <img src="https://github-contributor-stats.vercel.app/api?username=aakarshitpathak&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo">
+</div>
+
+ 
+
 - 🔭 I’m currently working on **Image Detector**
 
 - 🌱 I’m currently learning **Data Science using linear algebra**
