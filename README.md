@@ -39,14 +39,11 @@
 
 </div>
 
-
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=aakarshitpathak)](https://github.com/aakarshitpathak/github-profile-trophy)
-
-
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <img src="https://github-contributor-stats.vercel.app/api?username=aakarshitpathak&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo">
+<div align="center">
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=aakarshitpathak&theme=radical" />
 </div>
+
+<img src="https://github-readme-stats.vercel.app/api?username=aakarshitpathak&theme=dark&hide_border=false&include_all_commits=false&count_private=false" />
 
  
 
