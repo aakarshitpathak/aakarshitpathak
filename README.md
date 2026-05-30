@@ -28,7 +28,6 @@
 
 
 
-
 ![snake gif](https://github.com/aakarshitpathak/aakarshitpathak/blob/output/github-snake-dark.svg)
 
 <div align="center">
