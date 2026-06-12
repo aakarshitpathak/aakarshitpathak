@@ -42,7 +42,6 @@
   <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=aakarshitpathak&theme=radical" />
 </div>
 
-<img src="https://github-readme-stats.vercel.app/api?username=aakarshitpathak&theme=dark&hide_border=false&include_all_commits=false&count_private=false" />
 
  
 
