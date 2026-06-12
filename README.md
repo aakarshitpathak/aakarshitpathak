@@ -45,7 +45,7 @@
 
  
 
-- 🔭 I’m currently working on **Image Detector**
+- 🔭 I’m currently working on **ML READY AI PROJECT** which automatically train model on a given dataset.
 
 - 🌱 I’m currently learning **Data Science using linear algebra**
 
