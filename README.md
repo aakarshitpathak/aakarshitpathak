@@ -47,7 +47,7 @@
 
 - 🔭 I’m currently working on **ML READY AI PROJECT** which automatically trains model on a given dataset.
 
-- 🌱 I’m currently learning **Data Science using linear algebra**
+- 🌱 I’m currently learning **Power BI**
 
 - 👯 I’m looking to collaborate on **Experienced data scientists / mentors**
 
